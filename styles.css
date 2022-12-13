@@ -1,7 +1,26 @@
+
+
+
+
+
+
+
+
+
 #Page-Top{
     background-color: black;
 }
 
 .Logo{
     max-width: 200px;
+}
+
+.Footer{
+    background-color: black;
+}
+
+.Footer-text{
+    align-items: flex-end;
+    font-family: sans-serif;
+
 }
