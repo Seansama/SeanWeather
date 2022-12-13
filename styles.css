@@ -17,10 +17,13 @@
 
 .Footer{
     background-color: black;
+   margin-top: 500px;
+    height: 100px;
 }
 
 .Footer-text{
-    align-items: flex-end;
+    align-self: baseline;
     font-family: sans-serif;
+    color: white;
 
 }
