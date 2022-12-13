@@ -88,9 +88,24 @@ h1.temp{
     margin-left: 8px;
 }
 
+.weather.loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading.after{
+    visibility: visible;
+    content: "Loading weather...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
 .Footer-text{
     align-self: baseline;
     font-family: sans-serif;
     color: white;
-
+    padding: 20px;
 }
