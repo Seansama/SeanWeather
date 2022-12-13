@@ -74,6 +74,15 @@ button:hover {
     background: #7c7c7c6b;
 }
 
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
 .Footer-text{
     align-self: baseline;
     font-family: sans-serif;
