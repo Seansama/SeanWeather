@@ -70,6 +70,10 @@ input.search-bar{
     height: 80px;
 }
 
+button:hover {
+    background: #7c7c7c6b;
+}
+
 .Footer-text{
     align-self: baseline;
     font-family: sans-serif;
