@@ -83,6 +83,11 @@ h1.temp{
     align-items: center;
 }
 
+.description{
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
 .Footer-text{
     align-self: baseline;
     font-family: sans-serif;
