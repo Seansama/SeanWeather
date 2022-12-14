@@ -1,6 +1,6 @@
 document.addEventListener(`DOMContentLoaded`, () => {
     let weather = {
-        apiKey: '6b021e2a2b26c9a4141168c1b149d7fa';
+        apiKey: '6b021e2a2b26c9a4141168c1b149d7fa',
         fetchWeather: function (city) {
             fetch(
                 "https://api.openweathermap.org/data/2.5/weather?q=" +
@@ -35,5 +35,9 @@ document.addEventListener(`DOMContentLoaded`, () => {
             document.body.style.backgroundImage =
                 "url('https://source.unsplash.com/1600x900/?" + name + "')";
         },
+        search: function () {
+            this.fetchWeather(document.querySelector(".search-bar").value);
+        },
+    };
 
 })
