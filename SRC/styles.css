@@ -119,16 +119,16 @@ h1.temp{
     width: 60px;
 }
 
-.Signup{
+.ContactUs{
     float: right;
     margin: 0.5em;
     border-radius: 20%;
     border: none;
     height: 44px;
-    width: 65px;
+    width: 85px;
 }
 
-.Signup, .Login{
+.ContactUs, .Login{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
