@@ -40,7 +40,7 @@ html, body {
     justify-content: center;
 }
 
-button{
+.SearchButton{
     margin: 0.5em;
     border-radius: 50%;
     border: none;
@@ -114,6 +114,8 @@ h1.temp{
     float: right;
     margin: 0.5em;
     border-radius: 20%;
+    background: #7c7c7c2b;
+    outline: none;
     border: none;
     height: 44px;
     width: 60px;
@@ -123,12 +125,15 @@ h1.temp{
     float: right;
     margin: 0.5em;
     border-radius: 20%;
+    background: #7c7c7c2b;
+    outline: none;
     border: none;
     height: 44px;
     width: 85px;
 }
 
 .ContactUs, .Login{
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
