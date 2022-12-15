@@ -1,4 +1,4 @@
-/*
+
     let email = document.forms['form']['email'];
     let password = document.forms['form']['password'];
 
@@ -37,4 +37,4 @@
             return true;
         }
     }
-*/
+
