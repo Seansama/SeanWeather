@@ -104,6 +104,7 @@ The files in this project are structured as follows:
 _Shaun Mwangi_
 
 _**This project is open source under an MIT open source licence.**_
+
 _Copyright (c) 2022 Seansama_
 
 
